@@ -4,8 +4,39 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="css\bootstrap.min.css">
 </head>
 <body>
-    <p>Hello World!~</p>
+    <nav class="navbar navbar-expand-lg" style="background-color: rgb(134, 195, 239); border-radius: 18px; padding-top: 20px; margin-top: -15px;">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Navbar</a>
+
+            <form class="d-flex position-absolute top-40 start-50 translate-middle-x" role="search" >
+                <input class="form-control me-2 position-relative py-2 px-5 bg-secondary-subtle" type="search" placeholder="Search" aria-label="Search" style="border-radius: 25px;">
+            </form>
+
+            <button class="navbar-toggler " type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav position-absolute top-50 end-0 translate-middle-y me-4 mt-1">
+                    <a class="nav-link active" aria-current="page" href="#">Info</a>
+                    <a class="nav-link" href="#">Cart</a>
+                    <a class="nav-link" href="#">User</a>
+                </div>
+            </div>
+          
+        </div>
+    </nav>
+    
+    <article class="container-fluid bg-secondary-subtle pt-5" style="background: url('images/bgs/hero.jpg'); background-position: center; background-repeat: no-repeat; background-size: cover; margin-top: -15px; padding-bottom: 100px;">
+        <!-- <img src="images/bgs/hero.jpg" alt="title background"> -->
+        <section class="card-body py-5">
+            <div style="color: white;">
+                <h1 class="card-title fs-1 pb-3" style="text-align: center;"><b>Cheap game keys for all Platforms</b></h1>
+                <h6 class="card-text" style="text-align: center;">We offer thousands of different games across all genres, and many styles for cheap. <br>Don't like the price? You could sift through the price list from different kinds of sellers in no time!</h6>
+            </div>
+        </section>
+    </article>
 </body>
 </html>
