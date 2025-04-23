@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="css\bootstrap.min.css">
+    <link rel="stylesheet" href="customCss\gamePages.css">
 </head>
 
 <body>
@@ -29,47 +30,59 @@
         </div>
     </nav>
 
-    <div class="container-fluid" style="background-color: #ffa94d; margin-top: -1rem; padding-top: 3rem;">
+    <article class="container-fluid" >
+      <section id="gamePageBackground" style="background-image: url(images/bgs/gameBgs/hl2.jpg)">
         <div class="row justify-content-center align-items-center">
-          
           <!-- Game Image -->
-          <div class="col-md-3 text-center mb-4 mb-md-0">
-            <img src="images/gameCovers/hl2.png" alt="Half-Life 2" class="img-fluid rounded">
-          </div>
-      
-          <!-- Game Info Card -->
-          <div class="col-md-4 bg-white p-4 rounded shadow">
-            <h2 class="fw-bold text-center mb-4">Half-Life 2</h2>
-      
-            <!-- Platform + Edition Dropdowns -->
-            <div class="d-flex gap-2 mb-4">
-              <div class="input-group">
-                <span class="input-group-text">Platform</span>
-                <select class="form-select">
-                  <option>PC</option>
-                  <option>PS5</option>
-                  <option>Switch</option>
-                </select>
-              </div>
-      
-              <select class="form-select">
-                <option>Select edition</option>
-                <option>Standard</option>
-                <option>Deluxe</option>
-              </select>
+            <div class="col-md-3 text-center mb-4 mb-md-0 mt-5">
+              <img id="gameCoverImg" src="images/gameCovers/hl2.png" alt="Half-Life 2" class="img-fluid">
             </div>
-      
-            <!-- Price -->
-            <h3 class="text-center fw-bold mb-4">IDR 36,399</h3>
-      
-            <!-- Add to Cart Button -->
-            <button class="btn w-100 d-flex align-items-center justify-content-center gap-2" style="background: linear-gradient(to right, orange, #ffa94d);">
-              <i class="bi bi-cart"></i> Add to cart
-            </button>
-          </div>
-      
-        </div>
-      </div>
+        
+            <!-- Game Info Card -->
+            <div class="col-md-4 bg-white p-4 shadow" style="border-radius: 1rem;">
+              <h2 class="text-center mb-4"><b>Half-Life 2</b></h2>
+        
+              <!-- Platform + Edition Dropdowns -->
+              <form>
+                <div class="d-flex gap-2 mb-4">
+                  <!-- <div>
+                    <label for="platform">Platform</label>
+                    <select name="platform" id="platform">
+                      <option value="volvo">Volvo</option>
+                    </select>
+                    
+                  </div> -->
+                  <div class="input-group">
+                    <span class="input-group-text">Platform</span>
+                    <select class="form-select">
+                      <option>PC</option>
+                      <option>PS5</option>
+                      <option>Switch</option>
+                    </select>
+                  </div>
+          
+                  <select class="form-select">
+                    <option>Select edition</option>
+                    <option>Standard</option>
+                    <option>Deluxe</option>
+                  </select>
+                </div>
+          
+                <!-- Price -->
+                <h3 class="text-center fw-bold mb-4">IDR 36,399</h3>
+          
+                <!-- Add to Cart Button -->
+                <button class="btn w-100 d-flex align-items-center justify-content-center gap-2" style="background: linear-gradient(to right, orange, #ffa94d);">
+                  <i class="bi bi-cart"></i> Add to cart
+                </button>
+              </form>
+            </div>      
+      </section>
+
+      <section class="mt-3 mx-4">
+        <h2><b>Offers from different sellers</b></h2>
+      </section>
+    </article>
       
     
 </body>
