@@ -1,3 +1,10 @@
+#customNavbar{
+    background-color: rgb(134, 195, 239); 
+    border-radius: 18px; 
+    padding-top: 20px; 
+    margin-top: -15px;
+}
+
 #gamePageBackground{
     background-size: cover;
     margin-right: -0.75rem;

@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="css\bootstrap.min.css">
+    <link rel="stylesheet" href="customCss\styles.css">
 </head>
 
 <style>
@@ -19,9 +20,9 @@
 </style>
 
 <body>
-    <nav class="navbar navbar-expand-lg" style="background-color: rgb(134, 195, 239); border-radius: 18px; padding-top: 20px; margin-top: -15px;">
+    <nav class="navbar navbar-expand-lg" id="customNavbar">
         <div class="container-fluid">
-            <a class="navbar-brand" href="#">Navbar</a>
+            <a class="navbar-brand" href="#"><b>KM.</b></a>
 
             <form class="d-flex position-absolute top-40 start-50 translate-middle-x" role="search" >
                 <input class="form-control me-2 position-relative py-1 px-5 bg-secondary-subtle" type="search" placeholder="Search Bar" aria-label="Search" style="border-radius: 25px;">
@@ -32,7 +33,7 @@
             </button>
             <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                 <div class="navbar-nav position-absolute top-50 end-0 translate-middle-y me-4 mt-1">
-                    <a class="nav-link active" aria-current="page" href="#">Info</a>
+                    <a class="nav-link active" aria-current="page" href="about.html">Info</a>
                     <a class="nav-link" href="#">Cart</a>
                     <a class="nav-link" href="#">User</a>
                 </div>
@@ -50,58 +51,15 @@
             </div>
         </section>
     </article>
-
-    <!-- <table border="1px">
-        <tr>
-            <td>
-                
-                <section class="card mb-4" >
-                    <img src="images/gameCovers/hl2.png" class="card-img-top" style="border-radius: 20px;" alt="Half-Life 2">
-                    <div class="card-body text-center pb-3">
-                    <h5 class="card-title">Half-Life 2</h5>
-                    <h4 class="card-text"><b>IDR 36,399</b></h4>
-                    </div>
-                </section>
-            </td>
-
-            <td>
-                <section class="card mb-4" >
-                    <img src="images/gameCovers/repo.png" class="card-img-top" style="border-radius: 20px;" alt="R.E.P.O">
-                    <div class="card-body text-center pb-3">
-                    <h5 class="card-title">R.E.P.O</h5>
-                    <h4 class="card-text"><b>IDR 36,399</b></h4>
-                    </div>
-                </section>
-            </td>
-
-            <td>
-                <section class="card mb-4" >
-                    <img src="images/gameCovers/balanWonderworld.png" class="card-img-top" style="border-radius: 20px;" alt="Balan WonderWorld">
-                    <div class="card-body " style="text-align: center;">
-                    <h5 class="card-title"><del>Spawn of Satan</del><br>Balan WonderWorld</h5>
-                    <h4 class="card-text"><b>IDR 43,8500</b></h4>
-                    </div>
-                </section>
-            </td>
-
-            <td>
-                <section class="card mb-4" >
-                    <img src="images/gameCovers/aHatInTime.png" class="card-img-top" style="border-radius: 20px;" alt="A Hat in Time">
-                    <div class="card-body " style="text-align: center;">
-                    <h5 class="card-title">A Hat in Time</h5>
-                    <h4 class="card-text"><b>IDR 120,000</b></h4>
-                    </div>
-                </section>
-            </td>
-        </tr>     
-    </table> -->
-
+    
     <article class="px-5 pt-4 ">
         <h1 class="pb-4"><b>Recommended Games</b></h1>
         <div class="row justify-content-center">
             <div class="col-auto">
                 <section class="card mb-4" >
-                    <img src="images/gameCovers/hl2.png" class="card-img-top" style="border-radius: 20px;" alt="Half-Life 2">
+                    <a class="nav-link active" href="halfLife2.html">
+                        <img src="images/gameCovers/hl2.png" class="card-img-top" style="border-radius: 20px;" alt="Half-Life 2">
+                    </a>
                     <div class="card-body text-center pb-3">
                     <h5 class="card-title ">Half-Life 2</h5>
                     <h4 class="card-text"><b>IDR 36,399</b></h4>
