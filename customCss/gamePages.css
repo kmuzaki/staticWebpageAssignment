@@ -1,0 +1,21 @@
+#gamePageBackground{
+    background-size: cover;
+    margin-right: -0.75rem;
+    margin-left: -0.75rem;    
+    margin-top: -2rem;
+    border-radius: 1rem;
+}
+
+#gameCoverImg{
+    border-radius: 1rem;
+}
+
+#otherSellerCards{
+    border: gray solid 0.15rem; 
+    border-radius: 1rem;   
+}
+
+#shopLogo{
+    max-width: 3rem;
+    margin-right: 2rem;
+}
